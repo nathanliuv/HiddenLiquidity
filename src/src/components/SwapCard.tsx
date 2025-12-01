@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { ethers } from 'ethers';
 import { useAccount, useReadContract } from 'wagmi';
-import { CUSDC_ADDRESS, HAS_DEPLOYMENT, SWAP_ABI, SWAP_ADDRESS } from '../config/contracts';
+import {  HAS_DEPLOYMENT, SWAP_ABI, SWAP_ADDRESS } from '../config/contracts';
 import { useEthersSigner } from '../hooks/useEthersSigner';
 
 const DECIMALS = 1_000_000n;
